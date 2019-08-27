@@ -1,0 +1,49 @@
+
+.Header {
+    width: 50%;
+    margin-left: auto;
+    height: auto;
+    float: right;
+}
+.Backgroundcontent{
+    width: 100%;
+    position: relative;
+    height: auto;
+    top: 15px;
+}
+.imageholder
+{
+    width: 100%;
+    height: 650px;
+}
+
+.Heading
+{
+    position: absolute;
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 32px;
+    color: #FFFFFF;
+    top: 152px;
+}
+.contents
+{
+    position: absolute;
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 18px;
+    color: #FFFFFF;
+    width: 14%;
+    top: 195px;
+    line-height: 22px;
+}
+
+.button
+{
+    position: absolute;
+    width: 151px;
+    height: 39px;
+    margin-left: auto;
+    /* left: 1045px; */
+    top: 260px;
+}

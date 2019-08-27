@@ -1,0 +1,76 @@
+.Banner1{
+    width: 100%;
+    position: relative;
+    padding-top: 75px;
+    display: flex;
+    height: auto;
+    padding-left: 60px;
+}
+.BannerLeft{
+    width: 50%;
+    height: auto;
+    position: relative;
+    display: inline-block;
+}
+.imageholder
+{
+    width: 70%;
+    height: 300px;
+}
+.BannerRight{
+    width: 50%;
+    height: auto;
+    float: right;
+    position: relative;
+    top: 50px;
+}
+
+.Header
+{
+    width: 100%;
+    height: auto;
+}
+
+
+.BannerRight::before {
+    content: "";
+    display: block;
+    position: absolute;
+    z-index: 1;
+    top: 6px;
+
+    /* bottom: 0; */
+    border-left: 5px solid #77C09E;
+    padding: 10px;
+    height: 25px;
+
+}
+
+.Heading{
+    padding: 10px;
+    width: 50%;
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 38px;
+    line-height: 36px;
+    color: #323336;
+    padding-left: 25px;
+}
+.content
+{
+    width: 32%;
+    font-family: Roboto;
+    font-weight: normal;
+    font-size: 16px;
+    margin-top: 30px;
+    line-height: 20px;
+    color: #323336;
+
+}
+.button{
+    position: absolute;
+    width: 151px;
+    height: 39px;
+    margin-left: auto;
+    top: 170px;
+}
